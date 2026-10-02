@@ -1,2 +1,12 @@
 # cb2330-project
-Pipeline modelling mice obesity from gut microbiota 
+This project is based on the paper Gut Microbiota from Twins Discordant for Obesity Modulate Metabolism in Mice: https://www.science.org/doi/10.1126/science.1241214 
+
+The pipeline models the change in adiposity in germ-free mice, measured in percentage points of increased fat mass for 15 days after transplantation of microbiota from adult female twins discordant for obesity. 
+
+Initially, the difference in fat mass gain, theta, is roughly estimated from figure 1D in the paper. This figure shows the average gain in fat mass after 15 days, in lean mice and obese mice respectively. Subsequently, we use data from figure 1E to implement a grid search method to determine the best fitting value of theta. This dataset was made by visually estimating the total of five datapoints over 8 to 35 days, in one of the twin pairs.
+
+Our main finding was that the best value of theta was 0.413. This means that the mouse with obese microbiota gained on average 0.413 percentage points more fat mass per day than the mouse with lean microbiota. This value varies greatly from our original theta, 10/15 because they are based on different data. 
+
+The bootstrap showed a great uncertainty in the result, much because of the small number of datapoints. We can conclude that our model does not show good statistical support. 
+
+The pipeline should be ran directly from top to bottom. All the data is included in the file. 
