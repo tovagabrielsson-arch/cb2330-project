@@ -12,4 +12,4 @@ The bootstrap showed a great uncertainty in the result, largely because of the s
 The pipeline should be run directly from top to bottom. The data is stored in the file called 'data' under the folder 'data file'. The data does not need to be downloaded, since the pipeline can access it through the url. If downloaded, the pipeline can instead use the local data file if the file path is updated in the cell under the heading “Backwards”.
 
 ### Generative Ai use
-Used for consulting on possible projects, debugging and help with plotting. Generative AI was also used to find spelling errors. 
+Used for consulting on possible projects, debugging and to help with bootstrap code. Generative AI was also used to find spelling errors and to format and edit figures. 
