@@ -9,7 +9,7 @@ Our main finding was that the best value of theta was 0.413. This means that the
 
 The bootstrap showed a great uncertainty in the result, largely because of the small number of data points. We can conclude that our model does not show good statistical support. 
 
-The pipeline should be run directly from top to bottom. All the data is included in the file. 
+The pipeline should be run directly from top to bottom. The data is stored in the file called 'data' under the folder 'datafile'. The data does not need to be downloaded, since the pipeline can access it through the url. 
 
 ### Generative Ai use
-Used for consulting on possible projects, debugging and help with plotting
+Used for consulting on possible projects, debugging and help with plotting. 
