@@ -1,4 +1,4 @@
-The following values were estimated from Figure 1E in the paper, and it is important to note that they came only from one mouse pair. The report gave no exact values that could be used, except the days for weighing the mice after they got their respective microbiota. The rest of the values were all estimated by us.
+The following values were estimated from Figure 1E in the paper, and it is important to note that they came only from one twin pair. The report gave no exact values that could be used, except the days when the mice's fat mass were measured after they got their respective microbiota. The rest of the values were all estimated by us.
 
 days_report - The days reported in the paper [days] -> 5 data points stored in a one-dimensional NumPy array 
 
